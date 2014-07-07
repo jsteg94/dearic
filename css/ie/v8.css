@@ -1,0 +1,117 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	.button, input, select, textarea {
+		position: relative;
+		-ms-behavior: url('css/ie/PIE.htc');
+	}
+	
+	input, select, textarea {
+		border: solid 1px #ccc;
+	}
+
+	/* Buttons */
+		
+		.button {
+		}
+
+			.button.down {
+				text-indent: 0;
+			}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+
+
+/*********************************************************************************/
+/* Intro                                                                         */
+/*********************************************************************************/
+
+	#intro {
+		background: url('images/overlay.png'), url('../images/kai/1edit04.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center top;
+		background-repeat: repeat, no-repeat; 
+	}
+
+/*********************************************************************************/
+/* One                                                                           */
+/*********************************************************************************/
+
+	#one {
+		background: url('images/overlay.png'), url('../images/kai/2edit04.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center top;
+        -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	}
+
+/*********************************************************************************/
+/* Two                                                                           */
+/*********************************************************************************/
+
+	#two {
+		background: url('images/overlay.png'), url('../images/kai/3edit02.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center top;
+        -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	}
+	
+/*********************************************************************************/
+/* Three                                                                           */
+/*********************************************************************************/
+
+	#three {
+		background: url('images/overlay.png'), url('../images/kai/4edit02.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+        -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	}
+	
+/*********************************************************************************/
+/* Four                                                                           */
+/*********************************************************************************/
+
+	#four {
+		background: url('images/overlay.png'), url('../images/kai/6edit01.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+        -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	}
+	
+/*********************************************************************************/
+/* Five                                                                           */
+/*********************************************************************************/
+
+	#five {
+		background: url('images/overlay.png'), url('../images/kai/7edit01.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center top;
+        -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	}
+	
+/*********************************************************************************/
+/* Conclusion                                                                           */
+/*********************************************************************************/
+
+	#conclusion {
+		background: url('images/overlay.png'), url('../images/fulls/04.jpg');
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center top;
+        -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	}
